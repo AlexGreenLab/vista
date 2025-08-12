@@ -2,7 +2,7 @@
 
 **VISTA** — versatile in-silico targeting analysis (VISTA) RNA structure-aware ML pipeline (PLS-DA) for optimized RNA sensor design.
 
-RNA-based biosensor design is often limited by the complexity of RNA structure–function relationships. VISTA combines RNA secondary structure prediction with and machine learning–based feature selection(PLS-DA) to guide sensor design for optimized binding and activation. It enables high-throughput evaluation of binding sites, supports visualization of structural accessibility, and integrates ViennaRNA/NUPACK for accurate thermodynamic modeling.
+RNA-based sensor design is often limited by the complexity of RNA structure–function relationships. VISTA combines RNA secondary structure prediction with machine learning–based feature selection (PLS-DA) to guide sensor design for optimized binding and activation. It enables high-throughput evaluation of binding sites, supports visualization of structural accessibility, and integrates ViennaRNA/NUPACK for accurate thermodynamic modeling.
 
 This repository includes the code used for:
 1. `Pairwise Probability` which computes pairwise probability values across an RNA target for various sensor binding sites, and maps these using an arc plot.
