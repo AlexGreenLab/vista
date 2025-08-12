@@ -14,8 +14,6 @@ dependencies:
   - viennarna
   - pip
   - pip:
-      - nupack
       - notebook
       - seaborn
       - xlrd
-      - pytest

@@ -7,5 +7,4 @@ openpyxl
 notebook
 seaborn
 xlrd
-pytest
 nupack
