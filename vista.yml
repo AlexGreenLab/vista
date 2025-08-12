@@ -1,4 +1,4 @@
-name: toehold-vista
+name: vista
 channels:
   - conda-forge
   - bioconda
