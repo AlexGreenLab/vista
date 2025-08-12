@@ -16,9 +16,10 @@ This repository includes the code used for:
 Set up the toehold-VISTA environment.
 
 ### Using Conda (recommended)
+(requires installation of Anaconda first)
 ```bash
 # clone the repo
-git clone git@github.com:AlexGreenLab/vista.git
+git clone https://github.com/AlexGreenLab/vista.git
 cd vista
 # create environment
 conda env create -f vista.yml
