@@ -16,17 +16,17 @@ Set up the toehold-VISTA environment.
 ### Using Conda (recommended)
 ```bash
 # clone the repo
-git clone git@github.com:AlexGreenLab/VISTA.git
-cd toehold-vista
+git clone git@github.com:AlexGreenLab/vista.git
+cd vista
 # create environment
-conda env create -f environment.yml
-conda activate VISTA
+conda env create -f vista.yml
+conda activate vista
 ```
 
 ### Using Pip + Virtual Environment 
 ```bash
-git clone https://github.com/AlexGreenLab/VISTA.git
-cd toehold-vista
+git clone https://github.com/AlexGreenLab/vista.git
+cd vista
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -34,12 +34,12 @@ pip install -r requirements.txt
 
 ### Using Docker
 ```bash
-docker build -t toehold-vista:latest .
-docker run --rm -it -v "$(pwd)":/app toehold-vista:latest
+docker build -t vista:latest .
+docker run --rm -it -v "$(pwd)":/app vista:latest
 ```
 
-### Other Dependencies/Packages
-# Installing ViennaRNA
+# Other Dependencies/Packages
+### Installing ViennaRNA
 ViennaRNA is NOT a pip package. It comes from the ViennaRNA library which provides the RNA Python module for RNA secondary structure prediction. ViennaRNA must be installed via: 
 
 Mac (Homebrew)
@@ -61,7 +61,7 @@ Windows
 Use Windows Subsystem for Linux (WSL) and follow the Linux installation above
 Alternatively, download from https://www.tbi.univie.ac.at/RNA/
 
-# Installing NUPACK
+### Installing NUPACK
 Nupack is used extensively in the toehold-VISTA code. It is essential that NUPACK be downloaded. 
 Mac (Homebrew)
 ```bash
