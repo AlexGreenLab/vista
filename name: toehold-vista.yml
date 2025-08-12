@@ -1,0 +1,21 @@
+name: toehold-vista
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - networkx
+  - openpyxl
+  - viennarna
+  - pip
+  - pip:
+      - nupack
+      - notebook
+      - seaborn
+      - xlrd
+      - pytest
